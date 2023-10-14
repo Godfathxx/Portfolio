@@ -1,7 +1,44 @@
 .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.portfolio {
+  background-color:grey;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+header {
+  background-color: aqua; 
+  color: #000000;
+  padding: 10px;
+  border-radius: 4px;
   text-align: center;
 }
 
+h1 {
+  margin: 0;
+}
+
+.education, .links {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 10;
+}
+
+li {
+  margin-top: 10px;
+}
+
+a {
+  color: #0066cc; /* Blue */
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
